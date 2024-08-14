@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;9);
+
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*{
+font-family: 'Montserrat';
+margin: 0;
+}
+section.top-pages{
+background: url(/images/nos_meilleures_ventes/product\ sanama\ 3.jpg);
+background-size: cover;
+height: 70vh;
+padding: 35px;
+}
+body{
+margin: 1px;;
+}
+header.header img{
+width: 150px;
+}
+header.header{
+color: red;
+position: absolute;
+}
+header.header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.landing-page{
+padding:20px 50px;
+}
+header.header{
+background-color: blue;
+}
+nav.nav{
+ display: flex;
+ list-style: none;
+ margin-left: 30px;
+ height: 50px;
+ font-weight: 40px;
+}
+nav.nav li{
+margin: 20px;
+font-size: 25px;
+}
+nav.nav{
+justify-content: space-between;
+}
+.big-title{
+color: blue;
+margin-left: 100px;
+}
+.big-title{
+font-family: 'Abril Fatface'cursive;
+}
+.scroll-down{
+color: white;
+font-size: 25px;
+position: absolute;
+bottom: 160px;
+text-decoration: none;
+}
+.services{
+ display: flex;
+ font-size: 25px;
+ margin: 25px;
+ padding:0px;
+}
+
+section.services{
+display: flex;
+justify-content: space-evenly;
+margin: 50px;
+}
+.service-item{
+display:flex ;
+flex-direction: column;
+align-items: center;
+background-color: ;
+}
+.delivery-icon{
+font-size: 50px;
+color:red;
+}
+.service-detail{
+font-weight: 600;
+width: 200px;
+text-align: center;
+}
+.mtz{
+ font-size: 50px;
+ font-family: 'Abril Fatface' cursive; 
+ font-weight: 100;
+ position: relative;
+}
+.mtz::before{
+content: "";
+position:absolute;
+background-color: #ADD9B1;
+width: 50px;
+height: 7px;
+bottom:0;
+}
+.mouha-items{
+margin: 100px;    
+}
+.plantes{
+background-image: url(../images/nos_meilleures_ventes/product\ sanama\ 5.jpg);
+min-height: 100px;
+flex-wrap: wrap;
+display: flex;
+}
+.plante-box{
+position: relative;
+background-size: cover;
+background-position: center;
+min-width: 500px;
+height: 400px;
+flex: 1;
+}
+.plante1{
+background-image:url(../images/nos_meilleures_ventes/product\ sanama\ 1.jpg);
+}
+.plante2{
+background-image:url(../images/nos_meilleures_ventes/product\ sanama\ 2.jpg);
+}
+.plante3{
+background-image:url(../images/nos_meilleures_ventes/product\ sanama\ 4.jpg);
+}
+.plante4{
+background-image:url(/images/nos_meilleures_ventes/product\ sanama\ 5.jpg);
+}
+.zo{
+background-color:#FFFFFFDF ;
+position: absolute;
+bottom:0 ;
+width: 100%;
+padding: 5px 20px;
+}
+.Diouf{
+font-size: 25px;
+font-weight: 600px;
+line-height: 3px;
+}
+.price{
+line-height: 3px;
+color: #88d40c;
+font-weight: 800px;
+font-size: 20px;
+}
+
+
+.gueye{
+font-family: 'Abril Fatface' cursive;
+font-size: 50px;
+font-weight: 100;
+position: relative;
+margin: 100px;
+}
+.gueye::before{
+content: "";
+background-color: #ADD9B1;
+width: 50px;
+height: 7px;
+position: absolute;
+bottom: 0;
+}
+.plante-grid{
+    display: grid;  
+min-height: 200vh; 
+grid-template-columns:repeat(2,1fr);
+grid-template-rows:repeat(4, 400px) ; 
+margin: 100px;
+margin-top:5px ;
+background-size:c;
+}
+.plante-grid1{
+background-image: url(../images/nos_meilleures_ventes/autre\ sanama\ 1.jpg);
+grid: column 1px / 3px; ;
+margin:5px;
+margin-top:5px ;
+}
+.plante-grid2{
+background-image: url(../images/nos_meilleures_ventes/autre\ sanama\ 2.jpg);
+grid: column 2px / 3px;;
+margin:5px;
+margin-top:5px ;
+}
+.plante-grid3{
+background-image: url(../images/nos_meilleures_ventes/autre\ sanama\ 3.jpg);
+margin:5px;
+margin-top:5px ;
+}
+.plante-grid4{
+background-image: url(../images/nos_meilleures_ventes/autre\ sanama\ 4.jpg);
+margin:5px;
+margin-top:5px ;
+}
+footer{
+display: flex;
+align-items: center;
+margin: 20px 100px;
+justify-content: space-between;
+font-weight: 600; 
+
+}
+footer div .F1{
+    padding: 1rem;
+    text-align: center;
+    
+}
+.cgv{
+color: rgb(5, 4, 4);
+text-decoration: none;
+}
+footer{
+margin-top:-50% ;
+}
+html{
+display: block;
+}
